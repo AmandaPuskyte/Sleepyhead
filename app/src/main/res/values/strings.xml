@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sleepyhead</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="repeatable">Repeatable</string>
+    <string name="displayed">Displayed</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="hour9">9</string>
+    <string name="two_dots">:</string>
+    <string name="minutes30">30</string>
+    <string name="repeatableM">Mondays</string>
+    <string name="disableT">True</string>
+    <string name="no_alarms">Add an alarm to get started</string>
+</resources>
