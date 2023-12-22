@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alike_angular</item>
+        <item>@font/allerta</item>
+        <item>@font/amita_bold</item>
+        <item>@font/archivo_black</item>
+        <item>@font/bungee</item>
+        <item>@font/lemon</item>
+        <item>@font/monofett</item>
+        <item>@font/vast_shadow</item>
+        <item>@font/yatra_one</item>
+        <item>@font/yeseva_one</item>
+    </array>
+</resources>

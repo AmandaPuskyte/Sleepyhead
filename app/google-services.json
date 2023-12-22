@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "302332391049",
+    "firebase_url": "https://homemed-7facc.firebaseio.com",
+    "project_id": "homemed-7facc",
+    "storage_bucket": "homemed-7facc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302332391049:android:fe281b24a77fbae96da058",
+        "android_client_info": {
+          "package_name": "com.example.homemed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302332391049-4vho61nsm5jhfc2nnethmavjslk5u7de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbDgtBSPsBKIxk1stHQxuis5EBapeK2xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302332391049-4vho61nsm5jhfc2nnethmavjslk5u7de.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

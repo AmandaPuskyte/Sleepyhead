@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:backgroundTint="#FDFFFF"
+    android:isScrollContainer="false"
+    android:orientation="vertical"
+    android:padding="50dp">
+    <!--Sukuriamas teksto atvaizdavimas, vartotojo duomenims  -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-paštas"
+        android:textColor="#14B9D3" />
+
+    <EditText
+        android:id="@+id/etSlapyvardis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Įveskite e-paštą" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slaptažodis"
+        android:textColor="#14B9D3" />
+
+    <EditText
+        android:id="@+id/etSlaptazodis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/slaptazodzio_ivedimas"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bPrisijungti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#78E7F8"
+        android:text="Prisijungti" />
+
+    <TextView
+        android:id="@+id/tvRegLinkas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:text="Naujas vartotojas? Registruokis čia!"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#555B5C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:text="Turite 5 bandymus prisijungti" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="275dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/logo" />
+</LinearLayout>

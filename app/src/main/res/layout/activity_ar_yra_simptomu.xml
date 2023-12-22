@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity_ar_yra_simptomu">
+
+    <Button
+        android:id="@+id/B_yra"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="355dp"
+        android:background="#E00AA5B3"
+        android:text="@string/button_jauciami_simptomai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text_ar_yra_simptomu"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="341dp"
+        android:layout_height="286dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/B_yra"
+        app:layout_constraintVertical_bias="0.588"
+        app:srcCompat="@drawable/simptomai" />
+
+    <TextView
+        android:id="@+id/Text_ar_yra_simptomu"
+        android:layout_width="292dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ar_jauciate_simptomus"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.688"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Button_nera"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="355dp"
+        android:background="#BC42E7F6"
+        android:text="@string/button_simptomu_nera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text_ar_yra_simptomu"
+        app:layout_constraintVertical_bias="0.141" />
+</androidx.constraintlayout.widget.ConstraintLayout>

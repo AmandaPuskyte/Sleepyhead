@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:backgroundTint="#FDFFFF"
+    android:isScrollContainer="false"
+    android:orientation="vertical"
+    android:padding="50dp">
+    <!--Sukuriamas teksto atvaizdavimas, vartotojo duomenims  -->
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="194dp"
+        app:srcCompat="@drawable/phonecare" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/vast_shadow"
+        android:text="Dispepsijos sindromas"
+        android:textColor="#236A75"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amita_bold"
+        android:text="Gydymas"
+        android:textColor="#D9CB42ED" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="173dp"
+        android:text="Labai svarbu keisti mitybos įpročius. Jei sveika gyvensena nepanaikina simptomų ar dispepsija atsirado dėl tam tikros virškinamojo trakto ligos, gali būti skiriamas medikamentinis gydymas antacidais, prokinetikais, skrandžio rūgščių išsiskyrimą mažinančiais medikamentais, taip pat antibiotikais (jei nustatomas infekcinis susirgimas)." />
+
+
+</LinearLayout>

@@ -1,16 +1,168 @@
 <resources>
-    <string name="app_name">Sleepyhead</string>
-    <string name="hour">Hour</string>
-    <string name="minute">Minute</string>
-    <string name="repeatable">Repeatable</string>
-    <string name="displayed">Displayed</string>
-    <string name="add">Add</string>
-    <string name="update">Update</string>
-    <string name="delete">Delete</string>
-    <string name="hour9">9</string>
-    <string name="two_dots">:</string>
-    <string name="minutes30">30</string>
-    <string name="repeatableM">Mondays</string>
-    <string name="disableT">True</string>
-    <string name="no_alarms">Add an alarm to get started</string>
+    <string name="app_name">HomeMed</string>
+    <string name="title_activity_login">Prisijungti</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="slaptazodzio_ivedimas">Įveskite slaptažodį</string>
+    <string name="slapyvardzio_ivedimas">Iveskite slapyvardį</string>
+    <string name="ar_jauciate_simptomus">Ar yra atsiradusių ligos simptomų?</string>
+    <string name="button_jauciami_simptomai">YRA</string>
+    <string name="button_simptomu_nera">NĖRA</string>
+    <string name="atsiprasymas_kai_nera_simptomu">Atsiprašome, bet ligos nustatyti nepavyks</string>
+    <string name="simptomu_pazymejimo_tekstas">Pažymėkite varnele ligos simptomus</string>
+    <string name="title_activity_simtomu_irasymas">simtomu_irasymas</string>
+    <string name="large_text">
+
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_simptomu_surasymas">Simptomu_surasymas</string>
+    <string name="simp_kosulys">Kosulys</string>
+    <string name="simp_sloga">Sloga</string>
+    <string name="simp_temp">Padidėjusi temperatūra</string>
+    <string name="simp_sk_galv">Galvos skausmas</string>
+    <string name="simp_sk_pilvo">Pilvo skausmas</string>
+    <string name="simp_pykinimas">Pykinimas</string>
+    <string name="simp_viduriavimas">Viduriavimas</string>
+    <string name="simp_vemimas">Vėmimas</string>
+    <string name="simp_berimas">Kūno bėrimas</string>
+    <string name="simp_skrepliavimas">Skrepliavimas</string>
+    <string name="simp_kr_sk">Krūtinės skausmas</string>
+    <string name="simp_dusulys">Dusulys</string>
+    <string name="simp_pilvo_putimas">Pilvo pūtimas</string>
+    <string name="simp_burnos_sk">Burnos skausmas</string>
+    <string name="simp_viduriu_uzkietejimas">Vidurių užkietėjimas</string>
+    <string name="simp_apetito_pablogėjimas">Apetito pablogėjimas</string>
+    <string name="simp_sk_deš_pašonėje">Skausmas dešinėje pašonėje</string>
+    <string name="simp_niezulys">Niežulys</string>
+    <string name="simp_odos_gleiviniu_pageltimai">Odos ir gleivinių  pageltimai</string>
+    <string name="simp_odos_gleiviniu_pabrinkimai">odos_gleiviniu_pabrinkimai</string>
+    <string name="simp_sk_juosmens_srityje">Skausmas juosmens srityje</string>
+    <string name="simp_regos_sutrikimas">Regos sutrikimas</string>
+    <string name="simp_uzimas_ausyse">Ūžimas ausyse</string>
+    <string name="simp_kaulu_san_sk">Kaulų, sąnarių skausmas</string>
+    <string name="simp_kraujavimas">Kraujavimas iš vidaus organų</string>
+    <string name="simp_krutines_sk">Krūtinės skausmas</string>
+    <string name="simp_drebulys">Drebulys</string>
+    <string name="ivesti">Įvesti simptomus</string>
+    <string name="skausmo_ivedimo_tekstas">Pažymėkite varnele skausmo vietas</string>
+    <string name="simp_skr_zar_sk">Skrandžio ir žarnyno skausmas</string>
+    <string name="simp_kaul_sk">Kaulų skausmas</string>
+    <string name="simp_sanariu_sk">Sąnarių skausmas</string>
+    <string name="simp_raumenu_sk">Raumenų skausmas</string>
+    <string name="simp_nejauciamas_sk">Skausmas yra nejaučiamas</string>
+    <string name="text_skausmo_vieta">Įvesti skausmo vietas</string>
+    <string name="simp_sutrikimu_text">Pažymėkite varnele sutrikimus</string>
+    <string name="simp_sutrikimas_text">Pažymėkite varnele atsiradusius sutrikimus</string>
+    <string name="simp_remuo">Rėmuo</string>
+    <string name="simp_rijimo_sutrikimas">Rijimo sutrikimas</string>
+    <string name="simp_slapinimosi_sutr">Šlapinimosi sutrikimas</string>
+    <string name="simp_regos_sutr">Regos sutrikimas</string>
+    <string name="simp_mirgejimas_akyse">Mirgėjimas akyse</string>
+    <string name="simp_skonio_pokyciai">Skonio pokyčiai</string>
+    <string name="simp_emociju_ir_mastimo_sutrikimai">Emocijų ir mąstymo sutrikimai</string>
+    <string name="simp_akiu_paraudimas">Akių paraudimas</string>
+    <string name="simp_akiu_burnos_sausumas">Akių ir burnos sausumas</string>
+    <string name="simp_svokstimas_krutineje">Švokštimas krūtinėje</string>
+    <string name="simp_apetito_padidejimas">Apetito padidėjimas</string>
+    <string name="text_sutrikimu_ivedimas">Sutrikimų įvedimas</string>
+    <string name="simp_bendras_silpnumas">Bendras kūno silpnumas</string>
+    <string name="simp_ugio_kuno_proporciju_pokyčiai">Ūgio ir kūno proporcijų pokyčiai</string>
+    <string name="simp_mieguistumas">Mieguistumas</string>
+    <string name="simp_odos_gleivinių_pabrinkimai">Odos ir gleivinių pabrinkimai</string>
+    <string name="simp_suliesėjimas">Suliesėjimas</string>
+    <string name="simp_kuno_mases_padidejimas">Kūno masės padidėjimas</string>
+    <string name="simp_sanariu_judesiu_ribotumas">Sąnarių judesių ribotumas</string>
 </resources>

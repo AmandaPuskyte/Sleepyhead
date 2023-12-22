@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Simptomu_ivedimas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pazymejimo_tekstas"
+            android:layout_width="382dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/simptomu_pazymejimo_tekstas"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/check_pilvo_putimas"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="190dp"
+            android:text="@string/simp_pilvo_putimas"
+            app:layout_constraintBottom_toTopOf="@+id/check_padid_temp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_viduriu_uzkietejimas"
+            tools:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/check_sloga"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="262dp"
+            android:text="@string/simp_sloga"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_vemimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_skrepliavimas" />
+
+        <CheckBox
+            android:id="@+id/check_viduriavimas"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="194dp"
+            android:text="@string/simp_viduriavimas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_viduriu_uzkietejimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_vemimas" />
+
+        <CheckBox
+            android:id="@+id/check_kuno_berimas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:text="@string/simp_berimas"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_niezulys" />
+
+        <CheckBox
+            android:id="@+id/check_niezulys"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="236dp"
+            android:text="@string/simp_niezulys"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_kuno_berimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_padid_temp" />
+
+        <CheckBox
+            android:id="@+id/check_kosulys"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="243dp"
+            android:text="@string/simp_kosulys"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_skrepliavimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chec_akiu_burnos_sausumas" />
+
+        <CheckBox
+            android:id="@+id/check_padid_temp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="102dp"
+            android:text="@string/simp_temp"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_niezulys"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_pilvo_putimas" />
+
+        <CheckBox
+            android:id="@+id/check_vemimas"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="227dp"
+            android:text="@string/simp_vemimas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_viduriavimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_sloga" />
+
+        <CheckBox
+            android:id="@+id/chec_akiu_burnos_sausumas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/simp_akiu_burnos_sausumas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_kosulys"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pazymejimo_tekstas" />
+
+        <CheckBox
+            android:id="@+id/check_viduriu_uzkietejimas"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="129dp"
+            android:text="@string/simp_viduriu_uzkietejimas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_pilvo_putimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_viduriavimas" />
+
+        <CheckBox
+            android:id="@+id/check_akiu_paraudimas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:text="@string/simp_akiu_paraudimas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_mieguistumas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_kuno_berimas" />
+
+        <CheckBox
+            android:id="@+id/check_mieguistumas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="67dp"
+            android:text="@string/simp_mieguistumas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_pykinimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_akiu_paraudimas" />
+
+        <CheckBox
+            android:id="@+id/check_pykinimas"
+            android:layout_width="297dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="219dp"
+            android:text="@string/simp_pykinimas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_kraujavimas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_mieguistumas" />
+
+        <CheckBox
+            android:id="@+id/check_kraujavimas"
+            android:layout_width="304dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="47dp"
+            android:text="@string/simp_kraujavimas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/check_dusulys"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_pykinimas" />
+
+        <CheckBox
+            android:id="@+id/check_dusulys"
+            android:layout_width="302dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="242dp"
+            android:text="@string/simp_dusulys"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_ivesti"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_kraujavimas" />
+
+        <CheckBox
+            android:id="@+id/check_bendras_silpnumas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="66dp"
+            android:text="@string/simp_bendras_silpnumas"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_ivesti"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/check_dusulys" />
+
+        <Button
+            android:id="@+id/button_ivesti"
+            android:layout_width="128dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#78E7F8"
+            android:text="@string/ivesti"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+</ScrollView>
